@@ -1,0 +1,86 @@
+body{
+	background-image:linear-gradient(to right,pink,white);
+}
+.maindiv{
+	display:flex;
+	justify-content: space-around;
+	margin:3%;
+}
+.leftdiv{
+background-image:linear-gradient(to right,darkviolet,white);
+height:45%;
+width:95%;
+margin:2%;
+border-radius:3%;
+text-align:center;
+box-shadow:2px 2px 2px 2px;
+}
+.rightdiv{
+background-image:linear-gradient(to right,darkviolet,white);
+height:45%;
+width:95%;
+padding:1%;
+margin:2%;
+border-radius:3%;
+box-shadow:2px 2px 2px 2px;
+}
+/*mobileview*/
+@media screen and (max-width: 480px){
+	body{
+	background-image:linear-gradient(to right,pink,white);
+}
+.maindiv{
+	/*display:flex;*/
+	/*justify-content: space-around;*/
+	display:inline-block;
+	margin:3%;
+}
+.leftdiv{
+background-image:linear-gradient(to right,darkviolet,white);
+height:75%;
+width:95%;
+margin:2%;
+border-radius:3%;
+text-align:center;
+box-shadow:2px 2px 2px 2px;
+}
+.rightdiv{
+background-image:linear-gradient(to right,darkviolet,white);
+height:75%;
+width:95%;
+padding:1%;
+margin:2%;
+border-radius:3%;
+box-shadow:2px 2px 2px 2px;
+}
+}
+/*tab view*/
+@media screen and (min-width: 481px) and (max-width: 1024px){
+body{
+	background-image:linear-gradient(to right,pink,white);
+}
+.maindiv{
+	/*display:flex;*/
+	/*justify-content: space-around;*/
+	display:inline-block;
+	margin:3%;
+}
+.leftdiv{
+background-image:linear-gradient(to right,darkviolet,white);
+height:75%;
+width:95%;
+margin:2%;
+border-radius:3%;
+text-align:center;
+box-shadow:2px 2px 2px 2px;
+}
+.rightdiv{
+background-image:linear-gradient(to right,darkviolet,white);
+height:75%;
+width:95%;
+padding:1%;
+margin:2%;
+border-radius:3%;
+box-shadow:2px 2px 2px 2px;
+}
+}
